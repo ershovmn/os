@@ -4,5 +4,5 @@ while true; do
         if [[ $strin = "QUIT" ]]; then
                 exit
         fi
-        echo $strin >> script5.log
+        echo "$strin" >> script5.log
 done
